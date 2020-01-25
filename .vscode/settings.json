@@ -1,0 +1,17 @@
+{
+    "files.autoSave": "afterDelay",
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+    "team.showWelcomeMessage": false,
+    "editor.formatOnSave": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.venvPath": "${worksapceFolder}/backend/env/bin/python3",
+    "python.linting.pep8Args": [
+        "--ignore=E501"
+    ],
+    "python.linting.pylintEnabled": true
+}
